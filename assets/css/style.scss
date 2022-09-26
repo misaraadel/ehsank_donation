@@ -283,6 +283,19 @@
   }
 }
 
+.button-more-contain {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-top: 30px;
+
+  .custom-btn {
+    width: 200px !important;
+  }
+}
+
 .navbar {
   width: 100%;
   padding: 20px 0px;
