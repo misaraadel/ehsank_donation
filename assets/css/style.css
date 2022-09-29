@@ -1048,6 +1048,12 @@ ul {
   padding-bottom: 30px;
   z-index: 9;
 }
+.heading.no-margin {
+  margin-bottom: 10px !important;
+}
+.heading.no-margin p {
+  margin-bottom: 5px !important;
+}
 .heading::after, .heading::before {
   content: "";
   position: absolute;

@@ -76,6 +76,14 @@
   padding-bottom: 30px;
   z-index: 9;
 
+  &.no-margin {
+    margin-bottom: 10px !important;
+
+    p {
+      margin-bottom: 5px !important;
+    }
+  }
+
   &::after, &::before {
     content: '';
     position: absolute;
