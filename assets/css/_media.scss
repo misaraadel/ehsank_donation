@@ -117,4 +117,32 @@
       }
     }
   }
+
+  .cart .project-box {
+    flex-direction: column;
+
+    .image-content, .contain {
+      width: 100%;
+    }
+  }
+
+  .bank-data {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    .content {
+      width: 100% !important;
+      margin-top: 20px;
+
+      li {
+        justify-content: space-between !important;
+
+        span {
+          font-size: 14px !important;
+        }
+      }
+    }
+  }
 }
